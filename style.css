@@ -12,6 +12,59 @@ Text Domain: twentyeleven
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 
-h1	{
-	background:#ababab;
+
+
+#wrapper	{
+	width:940px;
+	margin:0px auto;
 }
+
+header	{
+	padding:20px;
+	boarder:1px solid #bbb;
+	background-image:-webkit-gradient(linear,0%,0%,0%,100%,from(#fff)),
+}
+
+nav	{
+	background-color:#222;
+}
+
+
+nav ul 	{
+	list-style:none;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li	{
+	float:left;
+	color:#fff;
+	font-size:20px;
+	padding:4px 20px;
+}
+
+nav ul li a	{
+	display:block;
+}
+
+nav ul li a:hover	{
+	text-decoration:none;
+}
+
+
+#primary-nav	{
+	
+}
+
+.alignright	{
+	float:right;
+	margin:0px 0px 8px 0px;
+}
+
+.alignleft	{
+	float:left;
+}
+
+
+
