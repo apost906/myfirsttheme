@@ -25,8 +25,50 @@ header	{
 	background-image:-webkit-gradient(linear,0%,0%,0%,100%,from(#fff)),
 }
 
+header h1	{
+	-webkit-transition:-webkit-transform 0.5s;
+	transiion:transform 0.5s;
+}
+
+header h1:hover	{
+	transform:rotateY(10deg);
+	-webkit-transform:rotateY(10deg);	
+}
+
+h2 a	{
+	text-decoration:none;
+	color:#000;
+}
+
+
+#primary-nav ul li a	{
+	-webkit-transition:-webkit-transform 0.25s;
+	transiion:transform 0.25s;
+}
+
+#primary-nav ul li a:hover	{
+	transform:translateY(-2px);
+	-webkit-transform:translateY(-2px);	
+}
+
+i	{
+	-webkit-transition:-webkit-transform 0.5s;
+	transiion:transform 0.5s;
+}
+
+i:hover	{
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);	
+}
+
+
 nav	{
 	background-color:#222;
+}
+
+nav.affix	{
+	top:0px;
+	width:100%;
 }
 
 
@@ -53,11 +95,21 @@ nav ul li a:hover	{
 }
 
 
-#primary-nav	{
-	
+.search-results ul li a	{
+	font-size:30px;
+	color:#222;	
 }
 
-.alignright	{
+.meta	{
+	color:#555;
+	margin:6px 0px;	
+}
+
+.meta span	{
+	margin-right:26px;
+}
+
+.alignright	{0
 	float:right;
 	margin:0px 0px 8px 0px;
 }
@@ -66,5 +118,33 @@ nav ul li a:hover	{
 	float:left;
 }
 
+.highlight	{
+	background-color:#EDE8B2;
+}
+
+/* Phone Styles */
+@media (max-width: 480px)	{
+	body	{
+		padding:0px;
+		height:100%;
+	}
+	#wrapper	{
+		width:100%;
+	}
+	.post .img	{
+		float:none;
+		width:100%;
+	}
+	header	{
+		padding:10px;
+	}
+	header h1	{
+	font-size:30px;
+	line-height:30px;
+	}
+	header h1 a	{
+	line-height:30px;
+	}
+}
 
 
