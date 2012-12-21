@@ -122,6 +122,29 @@ nav ul li a:hover	{
 	background-color:#EDE8B2;
 }
 
+.alert	{
+	margin:5px;
+}
+
+.comments	{
+	list-style:none;
+}
+
+.comment-meta a	{
+	color:#000;
+	text-decoration:none;
+}
+
+.comment-edit-link	{
+	color:#08C;
+	text-decoration:underline;
+}
+
+#comment	{
+	height:100px;
+	width:400px;
+}
+
 /* Phone Styles */
 @media (max-width: 480px)	{
 	body	{

@@ -45,7 +45,7 @@
 					</div>
 					<!-- RIGHT SIDEBAR -->
 					<div class="span3">
-						<?php get_sidebar() ?>
+						<?php get_sidebar(); ?>
 					</div>
 				</div>
 				
